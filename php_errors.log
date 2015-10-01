@@ -1,0 +1,289 @@
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(library/login-logo.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 4
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(): Failed opening 'library/login-logo.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 4
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(library/custom-post-type.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 7
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(): Failed opening 'library/custom-post-type.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 7
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(library/copyright.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 11
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(): Failed opening 'library/copyright.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 11
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(library/widget-delete.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 14
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(): Failed opening 'library/widget-delete.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 14
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(library/debug.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 16
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(): Failed opening 'library/debug.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 16
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(library/slideshow.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 20
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(): Failed opening 'library/slideshow.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 20
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(library/mensaje.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 21
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(): Failed opening 'library/mensaje.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 21
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(library/imgurl.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 23
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(): Failed opening 'library/imgurl.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 23
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(library/limited-caracter.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 25
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Warning:  include(): Failed opening 'library/limited-caracter.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 25
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:09:34 UTC] PHP Fatal error:  Call to undefined function add_custom_post_type() in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 39
+[01-Oct-2015 21:09:34 UTC] PHP Stack trace:
+[01-Oct-2015 21:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[01-Oct-2015 21:09:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[01-Oct-2015 21:09:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 21:09:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:09:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:09:34 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:353
+[01-Oct-2015 21:09:34 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[01-Oct-2015 21:09:34 UTC] PHP   8. theme_custom_types() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(library/login-logo.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 4
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(): Failed opening 'library/login-logo.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 4
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(library/custom-post-type.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 7
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(): Failed opening 'library/custom-post-type.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 7
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(library/copyright.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 11
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(): Failed opening 'library/copyright.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 11
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(library/widget-delete.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 14
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(): Failed opening 'library/widget-delete.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 14
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(library/debug.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 16
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(): Failed opening 'library/debug.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 16
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(library/slideshow.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 20
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(): Failed opening 'library/slideshow.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 20
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(library/mensaje.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 21
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(): Failed opening 'library/mensaje.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 21
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(library/imgurl.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 23
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(): Failed opening 'library/imgurl.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 23
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(library/limited-caracter.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 25
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Warning:  include(): Failed opening 'library/limited-caracter.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 25
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 21:10:40 UTC] PHP Fatal error:  Call to undefined function add_custom_post_type() in /home/ubuntu/workspace/wp-content/themes/machinery/functions.php on line 39
+[01-Oct-2015 21:10:40 UTC] PHP Stack trace:
+[01-Oct-2015 21:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 21:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 21:10:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 21:10:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 21:10:40 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:353
+[01-Oct-2015 21:10:40 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[01-Oct-2015 21:10:40 UTC] PHP   7. theme_custom_types() /home/ubuntu/workspace/wp-includes/plugin.php:496
