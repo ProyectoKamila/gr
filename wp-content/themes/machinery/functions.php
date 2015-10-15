@@ -43,12 +43,36 @@ function theme_custom_types() {
 
     add_custom_taxonomy(array(
         'name' => 'sesion',
-        'singular' => 'sesion',
+        'plural' => 'Categoria',
         'genero' => 'f',
         'post_type' => 'portada',
         'hierarchical' => true
     ));
     
+     add_custom_post_type(array(
+        'type' => 'productos',
+        'plural' => 'Productos'
+     ));
+
+    add_custom_taxonomy(array(
+        'name' => 'categoria-productos',
+        'plural' => 'Categoria',
+        'genero' => 'f',
+        'post_type' => 'productos',
+        'hierarchical' => true
+    ));
+    add_custom_post_type(array(
+        'type' => 'videos',
+        'plural' => 'videos'
+     ));
+    
+    add_custom_taxonomy(array(
+        'name' => 'categoria-videos',
+        'plural' => 'Categoria',
+        'genero' => 'f',
+        'post_type' => 'videos',
+        'hierarchical' => true
+    ));
     
     
     

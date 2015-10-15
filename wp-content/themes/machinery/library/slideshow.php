@@ -9,7 +9,7 @@
                     <ul id="slider1">
                          <?php while(have_posts()){ the_post();?>
                               <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
-                                    <li style="background: url(<?php echo $feat_image;?> ) top center no-repeat; background-size:cover; sin-padding">
+                                    <li style="background: url(<?php echo $feat_image;?> ) top center no-repeat; background-size:cover; ">
                                        
                                        
                                     </li>
