@@ -362,7 +362,7 @@
                              </li>
                               <li onclick="mostrarvideos();"   class="act act4 col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                  <a class="hvr-wobble-horizontal">
-                                    Videos
+                                    Estado Actual
                                  </a>
                              </li>
                         </ul>
