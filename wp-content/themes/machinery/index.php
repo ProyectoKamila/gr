@@ -25,16 +25,113 @@
 <?php } ?>
 <?php } ?>
 <?php portada("home"); ?>
-
 <!--PRODUCTOS-->
 <div class="container">
     <div class="row">
+        <div class="alto50 col-xs-12"></div>
         <div class="col-xs-12">
+            <?php if (ICL_LANGUAGE_CODE == 'es') { ?>
             <div class="titulo-productos">
                 <h2>productos</h2>
             </div>
+            <?php } else {?>
+             <div class="titulo-productos">
+                <h2>products</h2>
+            </div>
+            <?php } ?>
         </div>
-        <!--CATEGORIAS DE PRODUCTOS-->
+       
+        <div class="alto20 col-xs-12"></div>
+    </div>
+</div>
+  <!--IMAGENES DE LOS PRODUCTOS-->
+        <?php if (ICL_LANGUAGE_CODE == 'es') { ?>
+        <div class="container-fluid">
+            <div class="row">
+                <?php  query_posts(array('post_type'=>'productos','posts_per_page'=>4)); ?>
+                 <?php while(have_posts()){ the_post();?>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 sin-padding">
+                        <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+                        <div class="fondo-imagen" style="background: url(<?php echo $feat_image;?>) top center no-repeat; background-size:cover; ">
+                            <div class="fondo-color">
+                                <div class="info-imagen">
+                                    <div class="titulo-imagen">
+                                        <h2><?php the_title();?></h2>
+                                        <?php if(get_field('precio')){?>
+                                        <h3> <?php the_field('precio');?> </h3>
+                                        <?php } ?>
+                                    </div>
+                                    <div class="parrafo-imagen">
+                                        <p>
+                                              <?php echo max_charlength(get_the_content(),150,"");?>
+                                        </p>
+                                    </div>
+                                    <div class="">
+                                        <a href="<?php the_permalink(); ?>" class="boton1 btn btn-default">
+                                            Ver Más
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <?php } ?>
+            </div>
+            <div class="alto50 col-xs-12"></div>
+        </div>
+        <?php } else {?>
+        <div class="container-fluid">
+            <div class="row">
+                <?php  query_posts(array('post_type'=>'productos','posts_per_page'=>4)); ?>
+                 <?php while(have_posts()){ the_post();?>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 sin-padding">
+                        <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+                        <div class="fondo-imagen" style="background: url(<?php echo $feat_image;?>) top center no-repeat; background-size:cover; ">
+                            <div class="fondo-color">
+                                <div class="info-imagen">
+                                    <div class="titulo-imagen">
+                                        <h2><?php the_title();?></h2>
+                                        <?php if(get_field('precio')){?>
+                                        <h3> <?php the_field('precio');?> </h3>
+                                        <?php } ?>
+                                    </div>
+                                    <div class="parrafo-imagen">
+                                        <p>
+                                              <?php echo max_charlength(get_the_content(),150,"");?>
+                                        </p>
+                                    </div>
+                                    <div class="">
+                                        <a href="<?php the_permalink(); ?> " class="boton1 btn btn-default">
+                                            See More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <?php } ?>
+            </div>
+            <div class="alto50 col-xs-12"></div>
+        </div>
+        <?php } ?>
+
+
+
+<!--CATERGORIAS-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <?php if (ICL_LANGUAGE_CODE == 'es') { ?>
+            <div class="titulo-productos">
+                <h2>categorias</h2>
+            </div>
+            <?php } else {?>
+             <div class="titulo-productos">
+                <h2>Categories</h2>
+            </div>
+             <?php } ?>
+        </div>
+        <!--CATEGORIAS DE CATERGORIAS-->
          <?php
 			$args = array(
             	'type'                     => 'productos',
@@ -89,10 +186,8 @@
         <div class="container-fluid">
             <div class="row">
                 <?php foreach ($categories as $category) {?>
-              
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 sin-padding">
                         <div class="fondo-imagen" style="background: url(<?php the_field('imagen-producto', $category->taxonomy . '_' . $category->term_id); ?>) top center no-repeat; background-size:cover; ">
-                          
                             <div class="fondo-color">
                                 <div class="info-imagen">
                                     <div class="titulo-imagen">
@@ -145,7 +240,6 @@
                     <?php } ?>
             </div>
         </div>
-        
         <?php } ?>
 
 <!--WELCOME-->
@@ -163,8 +257,8 @@
                 <p class="intro"><?php the_field("texto_introductorio");?></p>
             </div>
         </div>
-        <?php for($i=1;$i<4;$i++){?>
-        <div class="col-xs-12 col-sm-4">
+        <?php for($i=1;$i<3;$i++){?>
+        <div class="col-xs-12 col-sm-6">
             <div class="row">
                 <section class="item">
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -240,3 +334,4 @@
     </div>
 </div>
 <?php get_footer(""); ?>
+

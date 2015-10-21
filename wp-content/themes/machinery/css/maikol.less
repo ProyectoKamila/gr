@@ -386,7 +386,7 @@ header
     {
         color:white;
         text-align:center;
-        margin:78px 17px;
+        margin:20px 17px;
         .titulo-imagen
             {
                 
@@ -657,6 +657,22 @@ transition: 1s all ease-in-out;
                 color:@rojo;
             }
     }
+.sms
+    {
+        height:100px !important;
+    }
+.telefonos-header
+    {
+        margin-top:10%;
+        ul
+            {
+                li
+                    {
+                        list-style:none;
+                        text-align:right;
+                    }
+            }
+    }
 
 
 
@@ -674,12 +690,23 @@ transition: 1s all ease-in-out;
     
 }
 
-/* Escritorio pequeño o table */
-@media (min-width: 768px) and (max-width: 979px)  {
-     
+/* MD*/
+@media (min-width:992px) and (max-width:1200px) { 
 
-
-}
+.telefonos-header
+    {
+        margin-top:-4%;
+        ul
+            {
+                li
+                    {
+                        list-style:none;
+                        font-size:13px;
+                    }
+            }
+    }
+    
+ }
 
 /* tablet o smartphone */
 @media (max-width: 767px) {

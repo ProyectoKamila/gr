@@ -34,7 +34,7 @@ get_header();?>
             </section>
             <section class="form">
                 <form action="" method="POST">
-                <div class="col-xs-12 col-sm-4">
+                <div class="col-lg-6 col-md-6  col-sm-12  col-xs-12">
                     <?php if (ICL_LANGUAGE_CODE == 'es') { ?>  
                     <label for="">Nombre:</label>
                     <?php }else{?>
@@ -43,7 +43,7 @@ get_header();?>
                     <br/>
                     <input type="text" name="name" class="texto" required/>
                 </div>
-                <div class="col-xs-12 col-sm-4">
+                <div class="col-lg-6 col-md-6  col-sm-12  col-xs-12">
                     <?php if (ICL_LANGUAGE_CODE == 'es') { ?>  
                     <label for="">Apellido:</label>
                     <?php }else{?>
@@ -52,12 +52,12 @@ get_header();?>
                     <br/>
                     <input type="text" name="apellido" class="texto" required/>
                 </div>
-                <div class="col-xs-12 col-sm-4">
+                <div class="col-lg-6 col-md-6  col-sm-12  col-xs-12">
                     <label for="">Email:</label>
                     <br/>
                     <input type="email" name="email" class="texto" required/>
                 </div>
-                <div class="col-xs-12 col-sm-4">
+                <div class="col-lg-6 col-md-6  col-sm-12  col-xs-12">
                     <?php if (ICL_LANGUAGE_CODE == 'es') { ?>  
                     <label for="">Teléfono:</label>
                     <?php } else {?>
@@ -66,7 +66,7 @@ get_header();?>
                     <br/>
                     <input type="text" name="phone" class="texto" required/>
                 </div>
-                <div class="col-xs-12 col-sm-4">
+                <div class="col-lg-6 col-md-6  col-sm-12  col-xs-12">
                 <?php if (ICL_LANGUAGE_CODE == 'es') { ?>  
                     <label for="">País:</label>
                 <?php } else {?>    
@@ -75,19 +75,25 @@ get_header();?>
                     <br/>
                     <input type="text" name="phone" class="texto" required/>
                 </div>
-                <div class="col-xs-12 col-sm-4">
+                <div class="col-lg-6 col-md-6  col-sm-12  col-xs-12">
             <?php if (ICL_LANGUAGE_CODE == 'es') { ?>        
                     <label for="">Mensaje:</label>
             <?php } else { ?>
             <label for="">Message:</label>
             <?php } ?>
                     <br/>
-                    <input type="text" name="mensaje" class="texto" required/>
+                    <input type="text" name="mensaje" class="sms texto" required/>
                    
                 </div>
+             <?php if (ICL_LANGUAGE_CODE == 'es') { ?> 
                 <div class="col-xs-12">
-                     <input type="submit" name="enviar" class="btn btn-succes pull-right"/>
+                     <input type="submit" name="enviar" value="Enviar" class="btn btn-succes pull-right"/>
                 </div>
+                <?php } else { ?>
+                <div class="col-xs-12">
+                     <input type="submit" name="enviar" value="Send" class="btn btn-succes pull-right"/>
+                </div>
+                <?php } ?>
                 </form>
             </section>
             </div>

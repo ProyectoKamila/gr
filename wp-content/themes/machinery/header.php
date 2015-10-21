@@ -34,7 +34,7 @@
                       <?php if(!empty($pagename)) {?>
                       <?php while(have_posts()){ the_post();?>
                         <div class="logo">
-                            <a href="<?php echo home_url(""); ?>" class="hvr-buzz-out">
+                            <a href="<?php echo home_url(""); ?>">
                               <?php if(get_field('logo')){?>
                                 <img src="<?php the_field('logo');?>" class="img-responsive" alt="">
                                 <?php } ?>
@@ -87,39 +87,64 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-2 col-sm-12 sin-padding">
-                    <div class="redes">
-                        <ul>
-                            <li>
-                              <div class="idiomas">
-                                <?php do_action('wpml_add_language_selector'); ?>
-                              </div>
-                            </li>
-                                <?php  query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
-                                 <?php while(have_posts()){ the_post();?>
-                    
-                            <li>
-                                <?php if(get_field('cuenta-twitter')){?>
-                                    <a class="page-scroll " href=" <?php the_field('cuenta-twitter');?>  " target="_blank"><i class="face-header fa fa-twitter-square"></i></a>
-                                <?php } ?>
-                            </li>
-                             <li>
-                                  <?php if(get_field('cuenta-facebook')){?>
-                                    <a class="page-scroll" href="<?php the_field('cuenta-facebook');?> " target="_blank"><i class="face-header fa fa-facebook-square"></i></a>
-                                 <?php } ?>
-                            </li>
-                            <li>
-                                <?php if(get_field('cuenta-instagram')){?>
-                                     <a class="page-scroll" href="<?php the_field('cuenta-instagram');?>" target="_blank"><i class="face-header fa fa-instagram"></i></a>
-                                 <?php } ?>
-                            </li>
-                            <li>
-                                 <?php if(get_field('cuenta-google')){?>
-                                 <a  href="<?php the_field('cuenta-google');?>" target="_blank"><i class="face-header fa fa-google-plus-square "></i></a>
-                                  <?php } ?>
-                            </li>
-                            <?php } ?>
-                        </ul>
+                    <div class="col-lg-7 col-md-12  sin-padding">
+                        <div class="redes">
+                            <ul>
+                                <li>
+                                  <div class="idiomas">
+                                    <?php do_action('wpml_add_language_selector'); ?>
+                                  </div>
+                                </li>
+                                    <?php  query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
+                                     <?php while(have_posts()){ the_post();?>
+                        
+                                <li>
+                                    <?php if(get_field('cuenta-twitter')){?>
+                                        <a class="page-scroll " href=" <?php the_field('cuenta-twitter');?>  " target="_blank"><i class="face-header fa fa-twitter-square"></i></a>
+                                    <?php } ?>
+                                </li>
+                                <li>
+                                      <?php if(get_field('cuenta-facebook')){?>
+                                        <a class="page-scroll" href="<?php the_field('cuenta-facebook');?> " target="_blank"><i class="face-header fa fa-facebook-square"></i></a>
+                                     <?php } ?>
+                                </li>
+                                <li>
+                                    <?php if(get_field('cuenta-instagram')){?>
+                                         <a class="page-scroll" href="<?php the_field('cuenta-instagram');?>" target="_blank"><i class="face-header fa fa-instagram"></i></a>
+                                     <?php } ?>
+                                </li>
+                                <li>
+                                     <?php if(get_field('cuenta-google')){?>
+                                     <a  href="<?php the_field('cuenta-google');?>" target="_blank"><i class="face-header fa fa-google-plus-square "></i></a>
+                                      <?php } ?>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                    <div class="col-lg-5 col-md-12 hidden-sm hidden-xs text-center">
+                        <div class="telefonos-header">
+                            <ul>
+                                <?php if(get_field('telefono1')){?>
+                                <li>
+                                   <strong>Telefonos:</strong>
+                                    <?php the_field('telefono1');?>
+                                </li>
+                                <?php } ?>
+                                
+                                 <?php if(get_field('telefono2')){?>
+                                <li>
+                                    <?php the_field('telefono2');?>
+                                </li>
+                                <?php } ?>
+                                 <?php if(get_field('telefono3')){?>
+                                <li>
+                                    <?php the_field('telefono3');?>
+                                </li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+                    </div>
+                     <?php } ?>
                 </div>
                 <?php } else {?>
                  <div class="col-lg-6 col-lg-offset-1   col-md-8  col-sm-10 col-xs-12 sin-padding">

@@ -214,6 +214,7 @@
                             <p>
                                  <?php the_field('descripcion');?> 
                             </p>
+                           
                         </div>
                         <?php } ?>
                     </div>
@@ -240,11 +241,11 @@
                                 </div>
                                 <div class="alto20 col-xs-12"></div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="titulo">Telefono</div>
+                                    <div class="titulo">Teléfono</div>
                                     <input type="text" name="telefono" class="formu" required/>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="titulo">Pais</div>
+                                    <div class="titulo">País</div>
                                     <input type="text" name="pais" class="formu" required/>
                                 </div>
                                 <div class="alto20 col-xs-12"></div>
@@ -512,6 +513,9 @@
 	    $(".gallery-item a").addClass("fancybox");
 	    $(".gallery-item a").attr("data-fancybox-group","gallery");
 		$(".fancybox").fancybox();
+		mostrardescri();
+		$(".parrafo-info p > a ").addClass("btn-default");
+		$(".parrafo-info p > a ").addClass("btn");
 	});
 </script>
  
