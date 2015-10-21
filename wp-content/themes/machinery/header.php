@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>machinery</title>
+    <link rel="icon" type="image/png" href="http://gnrmachinery.net/favicon.png" />
     <!--Bootstrap-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
