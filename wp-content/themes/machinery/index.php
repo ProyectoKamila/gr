@@ -32,11 +32,11 @@
         <div class="col-xs-12">
             <?php if (ICL_LANGUAGE_CODE == 'es') { ?>
             <div class="titulo-productos">
-                <h2>productos</h2>
+                <h2>productos <a href="http://gnrmachinery.net/nuestra-flota/" target="_blank">Nuestra Flota</a></h2>
             </div>
             <?php } else {?>
              <div class="titulo-productos">
-                <h2>products</h2>
+                <h2>products <a href="http://gnrmachinery.net/nuestra-flota/" target="_blank">Our  fleet </a></h2>
             </div>
             <?php } ?>
         </div>
@@ -300,11 +300,12 @@
 <?php } ?>
 <!--VIDEOS-->
 <?php wp_reset_query();?>
-
-<?php query_posts(array("posts_type"=>"page","pagename"=>"video-promocion","posts_per_page"=>1));?>
+<?php $pagename = query_posts(array("posts_type"=>"page","pagename"=>"video-promocion","posts_per_page"=>1));?>
+ <?php if(!empty($pagename)) {?>
+     <?php while(have_posts()){ the_post();?>
 <div class="container">
     <div class="row">
-        <?php while(have_posts()){ the_post();?>
+        <?php if(get_field('fondo')){?>
         <div class="col-xs-12">
             <div class="video-home" style="background:url('<?php the_field("fondo");?>') top center; background-size:cover;">
             <?php $id_post = get_field("producto");
@@ -337,5 +338,7 @@
         <?php } ?>
     </div>
 </div>
+<?php } ?>
+<?php } ?>
 <?php get_footer(""); ?>
 

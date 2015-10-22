@@ -18,8 +18,8 @@ get_header();?>
                 <p class="intro"><?php the_field("texto_introductorio");?></p>
             </div>
         </div>
-        <?php for($i=1;$i<4;$i++){?>
-        <div class="col-xs-12 col-sm-4">
+        <?php for($i=1;$i<3;$i++){?>
+        <div class="col-xs-12 col-sm-6">
             <div class="row">
                 <section class="item">
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
