@@ -1,5 +1,4 @@
 <?php 
-//template-name: Page Nosotros
 get_header();?>
 <div id="stoy" data-url="nosotros"></div>
 <?php if (ICL_LANGUAGE_CODE == 'es') { ?>

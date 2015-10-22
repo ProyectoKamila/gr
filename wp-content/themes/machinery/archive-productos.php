@@ -20,7 +20,7 @@
          <div class="col-xs-12">
             <div class="titulo-productos">
                 <h2>products
-                    <a href="http://gnrmachinery.net/nuestra-flota/" target="_blank"> / Our  fleet </a>
+                    <a href="http://gnrmachinery.net/nuestra-flota/?lang=en" target="_blank"> / Our  fleet </a>
                 </h2>
             </div>
         </div>

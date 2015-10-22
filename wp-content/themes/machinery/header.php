@@ -80,9 +80,6 @@
                                         <a class="page-scroll hvr-bob " href="http://gnrmachinery.net/blog">NOTICIAS</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll hvr-bob " href="<?php echo home_url("nuestra-flota"); ?>">Nuestra FLota</a>
-                                    </li>
-                                     <li>
                                         <a class="page-scroll hvr-bob" href="<?php echo home_url("contacto"); ?>">CONTACTO</a>
                                     </li>
                                 </ul>
@@ -178,9 +175,6 @@
                                         <a class="page-scroll hvr-bob " href="">NEWS</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll hvr-bob " href="<?php echo home_url("nuestra-flota"); ?>">Our fleet</a>
-                                    </li>
-                                     <li>
                                         <a class="page-scroll hvr-bob" href="<?php echo home_url("contacto"); ?>">CONTACT</a>
                                     </li>
                                 </ul>
