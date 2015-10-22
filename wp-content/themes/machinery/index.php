@@ -268,7 +268,11 @@
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                         <h2><?php the_field("titulo_seccion_".$i);?></h2>
-                        <p><?php the_field("contenido_seccion_".$i);?></p>
+                        <p><?php the_field("contenido_seccion_".$i);?>
+                        <?php if($i == 1 && get_field("url")){?>
+                             <a href="" class="btn btn-default"><?php the_field("url_texto");?></a>
+                         <?php } ?>
+                        </p>
                     </div>
                 </section>
             </div>

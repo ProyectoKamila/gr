@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>machinery</title>
+    <title>Machinery</title>
     <link rel="icon" type="image/png" href="http://gnrmachinery.net/favicon.png" />
     <!--Bootstrap-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-2 col-sm-12 sin-padding">
-                    <div class="col-lg-7 col-md-12  sin-padding">
+                    <div class="col-lg-6 col-md-12  sin-padding">
                         <div class="redes">
                             <ul>
                                 <li>
@@ -122,12 +122,14 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-12 hidden-sm hidden-xs text-center">
+                    <div class="col-lg-6 col-md-12 hidden-sm hidden-xs text-center sin-padding">
                         <div class="telefonos-header">
                             <ul>
+                                <strong>Telefonos:</strong>
                                 <?php if(get_field('telefono1')){?>
+                                
                                 <li>
-                                   <strong>Telefonos:</strong>
+                                   
                                     <?php the_field('telefono1');?>
                                 </li>
                                 <?php } ?>
