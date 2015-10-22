@@ -11,13 +11,17 @@
          <?php if (ICL_LANGUAGE_CODE == 'es') { ?>
         <div class="col-xs-12">
             <div class="titulo-productos">
-                <h2>productos</h2>
+                <h2>productos
+                    <a href="http://gnrmachinery.net/nuestra-flota/" target="_blank"> / Nuestra Flota </a>
+                </h2>
             </div>
         </div>
         <?php } else {?>
          <div class="col-xs-12">
             <div class="titulo-productos">
-                <h2>products</h2>
+                <h2>products
+                    <a href="http://gnrmachinery.net/nuestra-flota/" target="_blank"> / Our  fleet </a>
+                </h2>
             </div>
         </div>
         <?php } ?>
@@ -83,7 +87,10 @@
                             <div class="fondo-color">
                                 <div class="info-imagen">
                                     <div class="titulo-imagen">
-                                        <h2><?php echo $category->name ?></h2>
+                                        <h2><?php echo $category->name ?>
+                                        
+                                        </h2>
+                                        
                                     </div>
                                     <div class="parrafo-imagen">
                                         <p>

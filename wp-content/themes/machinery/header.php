@@ -77,7 +77,10 @@
                                         <a class="page-scroll hvr-bob" href="<?php echo home_url("videos"); ?>">VIDEOS</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll hvr-bob " href="">NOTICIAS</a>
+                                        <a class="page-scroll hvr-bob " href="http://gnrmachinery.net/blog">NOTICIAS</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll hvr-bob " href="<?php echo home_url("nuestra-flota"); ?>">Nuestra FLota</a>
                                     </li>
                                      <li>
                                         <a class="page-scroll hvr-bob" href="<?php echo home_url("contacto"); ?>">CONTACTO</a>
@@ -150,6 +153,7 @@
                      <?php } ?>
                 </div>
                 <?php } else {?>
+                <!--MENU INGLES--> 
                  <div class="col-lg-6 col-lg-offset-1   col-md-8  col-sm-10 col-xs-12 sin-padding">
                     <div class="menu-header">
                         <div class="alto-menu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -173,6 +177,9 @@
                                     <li>
                                         <a class="page-scroll hvr-bob " href="">NEWS</a>
                                     </li>
+                                    <li>
+                                        <a class="page-scroll hvr-bob " href="<?php echo home_url("nuestra-flota"); ?>">Our fleet</a>
+                                    </li>
                                      <li>
                                         <a class="page-scroll hvr-bob" href="<?php echo home_url("contacto"); ?>">CONTACT</a>
                                     </li>
@@ -181,28 +188,67 @@
                         </div>
                     </div>
                 </div>
-                    <div class="col-lg-3 col-md-2 col-sm-12 sin-padding">
-                    <div class="redes">
-                        <ul>
-                            <li>
-                              <div class="idiomas">
-                                <?php do_action('wpml_add_language_selector'); ?>
-                              </div>
-                            </li>
-                             <li>
-                                <a class="page-scroll hvr-float-shadow" href=""><i class="face-header fa fa-twitter-square"></i></a>
-                            </li>
-                             <li>
-                                <a class="page-scroll hvr-float-shadow" href=""><i class="face-header fa fa-facebook-square"></i></a>
-                            </li>
-                            <li>
-                                 <a class="page-scroll hvr-float-shadow" href=""><i class="face-header fa fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                 <a class="page-scroll hvr-float-shadow" href=""><i class=" face-header fa fa-google-plus-square"></i></a>
-                            </li>
-                        </ul>
+                 <div class="col-lg-3 col-md-2 col-sm-12 sin-padding">
+                    <div class="col-lg-6 col-md-12  sin-padding">
+                        <div class="redes">
+                            <ul>
+                                <li>
+                                  <div class="idiomas">
+                                    <?php do_action('wpml_add_language_selector'); ?>
+                                  </div>
+                                </li>
+                                    <?php  query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
+                                     <?php while(have_posts()){ the_post();?>
+                        
+                                <li>
+                                    <?php if(get_field('cuenta-twitter')){?>
+                                        <a class="page-scroll " href=" <?php the_field('cuenta-twitter');?>  " target="_blank"><i class="face-header fa fa-twitter-square"></i></a>
+                                    <?php } ?>
+                                </li>
+                                <li>
+                                      <?php if(get_field('cuenta-facebook')){?>
+                                        <a class="page-scroll" href="<?php the_field('cuenta-facebook');?> " target="_blank"><i class="face-header fa fa-facebook-square"></i></a>
+                                     <?php } ?>
+                                </li>
+                                <li>
+                                    <?php if(get_field('cuenta-instagram')){?>
+                                         <a class="page-scroll" href="<?php the_field('cuenta-instagram');?>" target="_blank"><i class="face-header fa fa-instagram"></i></a>
+                                     <?php } ?>
+                                </li>
+                                <li>
+                                     <?php if(get_field('cuenta-google')){?>
+                                     <a  href="<?php the_field('cuenta-google');?>" target="_blank"><i class="face-header fa fa-google-plus-square "></i></a>
+                                      <?php } ?>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                    <div class="col-lg-6 col-md-12 hidden-sm hidden-xs text-center sin-padding">
+                        <div class="telefonos-header">
+                            <ul>
+                                <strong>Telefonos:</strong>
+                                <?php if(get_field('telefono1')){?>
+                                
+                                <li>
+                                   
+                                    <?php the_field('telefono1');?>
+                                </li>
+                                <?php } ?>
+                                
+                                 <?php if(get_field('telefono2')){?>
+                                <li>
+                                    <?php the_field('telefono2');?>
+                                </li>
+                                <?php } ?>
+                                 <?php if(get_field('telefono3')){?>
+                                <li>
+                                    <?php the_field('telefono3');?>
+                                </li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+                    </div>
+                     <?php } ?>
                 </div>
                 <?php } ?>
                 <!-- /.navbar-collapse -->

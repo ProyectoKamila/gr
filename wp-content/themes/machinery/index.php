@@ -32,11 +32,11 @@
         <div class="col-xs-12">
             <?php if (ICL_LANGUAGE_CODE == 'es') { ?>
             <div class="titulo-productos">
-                <h2>productos <a href="http://gnrmachinery.net/nuestra-flota/" target="_blank">Nuestra Flota</a></h2>
+                <h2>productos </h2>
             </div>
             <?php } else {?>
              <div class="titulo-productos">
-                <h2>products <a href="http://gnrmachinery.net/nuestra-flota/" target="_blank">Our  fleet </a></h2>
+                <h2>products </h2>
             </div>
             <?php } ?>
         </div>

@@ -519,6 +519,7 @@
 		$(".parrafo-info p > a ").addClass("btn");
 		$(".videos p > a ").addClass("btn");
 		$(".videos p > a ").addClass("btn-default");
+		
 	});
 </script>
  
