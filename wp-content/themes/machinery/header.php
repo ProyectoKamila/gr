@@ -71,7 +71,7 @@
                                         <a class="page-scroll hvr-bob" href="<?php echo home_url("nosotros");?>">NOSOTROS</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll hvr-bob" href="<?php echo home_url("productos"); ?>">PRODUCTOS</a>
+                                        <a class="page-scroll hvr-bob" href="<?php echo home_url("productos"); ?>">INVENTARIO</a>
                                     </li>
                                     <li>
                                         <a class="page-scroll hvr-bob" href="<?php echo home_url("videos"); ?>">VIDEOS</a>
@@ -166,7 +166,7 @@
                                         <a class="page-scroll hvr-bob" href="<?php echo home_url("nosotros");?>">ABOUT US</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll hvr-bob" href="<?php echo home_url("productos"); ?>">PRODUCTS</a>
+                                        <a class="page-scroll hvr-bob" href="<?php echo home_url("productos"); ?>">INVENTORY</a>
                                     </li>
                                     <li>
                                         <a class="page-scroll hvr-bob" href="<?php echo home_url("videos"); ?>">VIDEOS</a>

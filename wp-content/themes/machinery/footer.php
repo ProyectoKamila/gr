@@ -209,7 +209,7 @@ function new_map( $el ) {
 	
 	// vars
 	var args = {
-		zoom		: 16,
+		zoom		: 3,
 		center		: new google.maps.LatLng(0, 0),
 		mapTypeId	: google.maps.MapTypeId.ROADMAP
 	};
@@ -318,7 +318,7 @@ function center_map( map ) {
 	{
 		// set center of map
 	    map.setCenter( bounds.getCenter() );
-	    map.setZoom( 16 );
+	    map.setZoom( 3 );
 	}
 	else
 	{

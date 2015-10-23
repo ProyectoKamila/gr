@@ -2,18 +2,18 @@
 <?php portada("home"); ?>
 <?php wp_reset_query(); ?>
 <div id="stoy" data-url="productos"></div>
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <?php if (ICL_LANGUAGE_CODE == 'es') { ?>
         <div class="col-xs-12">
             <div class="titulo-productos">
-                <h2>PRODUCTOS</h2>
+                <h2>INVENTARIO</h2>
             </div>
         </div>
         <?php } else {?>
          <div class="col-xs-12">
             <div class="titulo-productos">
-                <h2>PRODUCTS</h2>
+                <h2>INVENTORY</h2>
             </div>
         </div>
         <?php } ?>
