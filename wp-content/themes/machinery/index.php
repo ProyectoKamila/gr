@@ -53,7 +53,7 @@
                                 </div>
                              <?php } ?>
                             <div class="col-xs-12 text-center">
-                                <a href="<?php the_permalink(); ?> "><button type="button" class="bot2 btn btn-danger">Ver Detalle</button></a>
+                                <a href="http://gnrmachinery.net/contacto/"><button type="button" class="bot2 btn btn-danger">Contactar</button></a>
                             </div>
                         </div>
                     </div>
@@ -85,17 +85,13 @@
                                 </div>
                              <?php } ?>
                             <div class="col-xs-12 text-center">
-                                <a href="<?php the_permalink(); ?> "><button type="button" class="bot2 btn btn-danger">See More</button></a>
+                                <a href="http://gnrmachinery.net/contacto/"><button type="button" class="bot2 btn btn-danger">Contact</button></a>
                             </div>
                         </div>
                     </div>
              <?php } ?>
         <?php } ?>
         <?php } ?>
-
-
-
-
  <!--CATERGORIAS-->
 <div class="container">
     <div class="row">
@@ -113,7 +109,6 @@
     </div>
 </div>
         
-
   <!--IMAGENES DE LOS PRODUCTOS-->
         
         <?php
@@ -381,5 +376,41 @@
 </div>
 <?php } ?>
 <?php } ?>
+
+<!--NOTICIAS-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+           <div class="titulo-productos">
+                <h2>Noticias</h2>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="col-xs-12">
+                <div class="imagen-noticia">
+                    <img src="">
+                </div>
+            </div>
+            <div class="col-xs-12 tetx-center">
+                <div class="titulo-noticia">
+                   <h2>Lorem Ipsum is simply</h2>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="parrafo-noticia">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into 
+                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <?php get_footer(""); ?>
 
