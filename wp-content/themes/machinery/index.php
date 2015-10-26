@@ -63,7 +63,7 @@
         </div>
         <?php } ?>
         <?php } else {?>
-        <?php $pagename2 = query_posts(array('post_type'=>'productos','posts_per_page'=>4, "categoria-productos"=>"destacado")); ?>
+        <?php $pagename2 = query_posts(array('post_type'=>'productos','posts_per_page'=>4, "categoria-productos"=>"destacados")); ?>
             <?php if(!empty($pagename2)) {?>
              <?php while(have_posts()){ the_post();?>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -377,40 +377,5 @@
 <?php } ?>
 <?php } ?>
 
-<!--NOTICIAS-->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-12">
-           <div class="titulo-productos">
-                <h2>Noticias</h2>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <div class="col-xs-12">
-                <div class="imagen-noticia">
-                    <img src="">
-                </div>
-            </div>
-            <div class="col-xs-12 tetx-center">
-                <div class="titulo-noticia">
-                   <h2>Lorem Ipsum is simply</h2>
-                </div>
-            </div>
-            <div class="col-xs-12">
-                <div class="parrafo-noticia">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type 
-                    specimen book. It has survived not only five centuries, but also the leap into 
-                    electronic typesetting, remaining essentially unchanged. It was popularised in 
-                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                    and more recently with desktop publishing software like Aldus PageMaker including 
-                    versions of Lorem Ipsum.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <?php get_footer(""); ?>
 
