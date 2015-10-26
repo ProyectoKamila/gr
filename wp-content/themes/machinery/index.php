@@ -26,26 +26,17 @@
 <?php } ?>
 <?php portada("home"); ?>
 <!--OFERTAS-->
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <?php if (ICL_LANGUAGE_CODE == 'es') { ?>
-            <div class="titulo-productos">
-                <h2>Ofertas</h2>
-            </div>
-            <?php } else {?>
-             <div class="titulo-productos">
-                <h2>Offers</h2>
-            </div>
-             <?php } ?>
-        </div>
-    </div>
-</div>
         <?php if (ICL_LANGUAGE_CODE == 'es') { ?>
+        <?php $pagename1 = query_posts(array('post_type'=>'productos','posts_per_page'=>4, "categoria-productos"=>"destacados")); ?>
+        <?php if(!empty($pagename1)) {?>
         <div class="container">
             <div class="row">
-                <?php  query_posts(array('post_type'=>'productos','posts_per_page'=>4)); ?>
-                 <?php while(have_posts()){ the_post();?>
+                <div class="col-xs-12">
+                    <div class="titulo-productos">
+                        <h2>Ofertas</h2>
+                    </div>
+                </div>
+                 <?php while(have_posts()){ the_post(); ?>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="marco">
                             <div class="circu-ofer">
@@ -66,12 +57,19 @@
                             </div>
                         </div>
                     </div>
-                    <?php } ?>
+                <?php } ?>
             </div>
             <div class="alto50 col-xs-12"></div>
         </div>
+        <?php } ?>
         <?php } else {?>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <?php $pagename2 = query_posts(array('post_type'=>'productos','posts_per_page'=>4, "categoria-productos"=>"destacado")); ?>
+            <?php if(!empty($pagename2)) {?>
+             <?php while(have_posts()){ the_post();?>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="titulo-productos">
+                        <h2>Offers</h2>
+                    </div>
                         <div class="marco">
                             <div class="circu-ofer">
                                 <p>Offer</p>
@@ -91,6 +89,8 @@
                             </div>
                         </div>
                     </div>
+             <?php } ?>
+        <?php } ?>
         <?php } ?>
 
 

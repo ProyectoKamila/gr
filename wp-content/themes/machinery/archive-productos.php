@@ -24,11 +24,11 @@
         <div class="col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-6 col-xs-12 text-center">
             <?php if (ICL_LANGUAGE_CODE == 'es') { ?>
             <div class="titulo-productos">
-              <a href="http://gnrmachinery.net/todo-el-inventario/" target="_blank"><h2>Todo Inventario </h2></a>
+              <a href="http://gnrmachinery.net/todo-el-inventario/" target="_blank" class="hvr-underline-reveal"><h2>Todo Inventario </h2></a>
             </div>
             <?php } else {?>
              <div class="titulo-productos">
-                <a href="http://gnrmachinery.net/todo-el-inventario/" target="_blank"><h2>All Inventory </h2></a>
+                <a href="http://gnrmachinery.net/todo-el-inventario/" target="_blank" class="hvr-underline-reveal"><h2>All Inventory </h2></a>
             </div>
             <?php } ?>
         </div>
