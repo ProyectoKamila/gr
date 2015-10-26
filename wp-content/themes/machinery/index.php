@@ -120,7 +120,7 @@
             	'order'                    => 'ASC',
             	'hide_empty'               => 0,
             	'hierarchical'             => 1,
-            	'exclude'                  => '',
+            	'exclude'                  => '32,33',
             	'include'                  => '',
             	'number'                   => '',
             	'taxonomy'                 => 'categoria-productos',
@@ -376,6 +376,9 @@
 </div>
 <?php } ?>
 <?php } ?>
+
+                                </h3>
+
 
 <?php get_footer(""); ?>
 
